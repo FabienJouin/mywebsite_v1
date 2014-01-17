@@ -1,0 +1,124 @@
+
+/* index page */
+
+	h2 {
+	font: 1.2em Intro, sans-serif;
+}
+
+
+	h3 {
+	font: 1.8em Intro, sans-serif;
+	line-height: 2.2em;
+
+}
+
+	h4 {
+	font: 1.8em Intro, sans-serif;
+	color: #eb7049;
+}
+
+
+	p {
+	font: 18px SofiaProLight, sans-serif;
+	line-height: 1.5em;
+	}
+
+/* here start the content */
+
+
+
+#content {
+	max-width: 1024px;
+	margin: 0 auto;
+	display: block;
+	padding-top: 210px; 
+}
+
+.project {
+	padding-bottom: 5em;
+	display: table;
+	clear: both;
+}
+
+.text {
+	float: right;
+	margin-left: 3%;
+	margin-right: 0;
+	padding-top: 50px;
+	text-align: right;
+	vertical-align: top;
+	width: 31%;
+	
+
+}
+
+.list {
+	direction: rtl;
+}
+
+.image {
+	position: relative;
+	vertical-align: top;
+	float: left;
+	width: 65%;
+	padding-top: 40px;
+}
+
+.image img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+	padding-bottom: 50px;
+}
+
+
+@media only screen and (max-width: 1184px) {
+	#content {
+		margin: 0 50px;
+		max-width: none;
+	}
+
+
+	.project {
+		float: inherit;
+		margin: 0;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+
+	#content {
+	padding-top: 100px; 
+	}
+
+
+	.text {
+		float: inherit;
+		text-align: left;
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.list {
+		direction: ltr;
+	}
+
+	.image {
+		float: inherit;
+		margin: 0 auto;
+		width: 100%;
+		vertical-align: middle;
+		padding-top: 50px;
+	}
+
+}
+
+@media only screen and (max-width: 640px) {
+	#content {
+		margin: 0 34px;
+	}
+
+}
+

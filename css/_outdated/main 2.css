@@ -1,0 +1,206 @@
+/* font */
+
+@font-face {
+	font-family: Intro;
+	src: url(../fonts/Intro.otf);
+}
+
+@font-face {
+	font-family: SofiaProLight;
+	src: url(../fonts/SofiaProLight.otf);
+}
+
+
+
+h2 {
+	display: block;
+	-webkit-margin-before: 0.83em;
+	-webkit-margin-after: 0.83em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	padding-bottom: 5px;
+}
+
+li a h2 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #ffffff;
+	font: 1.2em Intro, sans-serif;
+}
+
+a: -webkit-any-ling {
+	cursor: auto;
+}
+
+h5 {
+	font-size: 16px;
+	font-weight: 700px;
+	color: #ffffff;
+	font-family: sans-serif;
+
+}
+
+
+#background{
+	background-image: url('../images/p5.png');
+	background-repeat: repeat;
+	display: block;
+	z-index: -1;
+	position: fixed;
+	width: 2900px;
+	height: 2900px;
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+
+}
+
+/*here start the header*/
+.main-header {
+	z-index: 1;
+	background-color: rgba(0,0,0,0.8);
+	height: 180px;
+	position: fixed;
+	width: 100%;
+	margin-top: 0px;
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.2);
+
+
+}
+
+#container {
+	float: inherit;
+	width: 640px;
+	margin: 0 auto;
+	margin-right: auto;
+	padding-top: 40px;
+}
+
+
+
+#mainnav {
+	float:inherit;
+	background: none;
+	border: none;
+	position: relative;
+	top: 0px;
+	width: 640px;
+
+}
+
+header {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-padding-start: 40px;
+
+}
+
+#mainnav li {
+	display: inline-block;
+	text-align: center;
+
+}
+
+
+.leftside {
+	float:left;
+	display: inline-block;
+	text-align: center;
+	margin:bottom 100px;
+	margin-top: 34px;
+	margin-left: 120px;
+	padding-right: 50px;
+}
+
+.center {
+	float: inherit;
+
+}
+
+.rightside {
+	float: right;
+	display: inline-block;
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 34px;
+	margin-left: 10px;
+	margin-right: 120px;
+}
+
+
+#mainnav li a {
+	text-decoration: none;
+	text-align: center;
+}
+
+
+
+.center {
+	margin: 0 auto;
+	}
+
+
+@media screen and (max-width: 767px) {
+
+
+
+	#container {
+		float: inherit;
+		text-align: center;
+	}
+
+@media screen and (max-width: 640px) {
+
+	
+	header {
+		margin: 0 auto;
+	} 
+
+	#container {
+		max-width: 100%;
+		float: inherit;
+		text-align: center;
+	}
+
+
+
+	#mainnav {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.leftside {
+		display: none !important;
+		position: absolute; 
+		
+	}
+
+	.rightside {
+		display: none !important;
+		position: absolute;
+		visibility: hidden;
+		
+	}
+
+	.center {
+		float: inherit;
+
+	}
+
+	.logo {
+		display: block;
+
+	}
+
+
+	#dropdown {
+
+	}
+	
+	}
+/* here end the header */
+
+
+
+

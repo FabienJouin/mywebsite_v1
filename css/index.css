@@ -1,0 +1,154 @@
+
+/* index page */
+
+	h2 {
+	font: 1.2em Intro, sans-serif;
+	
+
+}
+
+	p {
+	font: 1em SofiaProLight, sans-serif;
+}	
+
+@font-face {
+	font-family: Intro;
+	src: url(../fonts/Intro.otf);
+}
+
+@font-face {
+	font-family: SofiaProLight;
+	src: url(../fonts/SofiaProLight.otf);
+}
+
+
+/* here start the content */
+
+
+
+#content {
+	width: 640px;
+	margin: 0 auto;
+	margin-right: auto;
+	padding-top: 0px;
+
+}
+
+section {
+	padding-bottom: 5em;
+}
+
+#contentleft {
+	float:left;
+	background: none;
+	border: none;
+	position: relative;
+	top: 25px;
+	right: 25px;
+	left: 45px;
+	display: block;
+}
+
+#contentright {
+	float:left;
+	background: none;
+	border: none;
+	position: relative;
+	top: 25px;
+	left: 95px;
+	display: block;
+}
+
+.articleone {
+	position: relative;
+	padding-top: 200px;
+	width:100%;
+}
+
+
+.article {
+	position: relative;
+	padding-top: 50px;
+	width:100%;
+}
+
+/* here start description of the project */
+
+.description {
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+	color: #ffffff;
+	font: sans-serif;
+
+}
+/* here end description of the project */
+/* here end the content */
+
+@media screen and (min-width: 767px) {
+#contentmiddle {
+        display: none !important;
+        }
+    }
+
+
+@media screen and (max-width: 767px) {
+
+
+
+
+
+
+    #contentright {
+        display: none !important;
+    }
+
+    #contentleft {
+        display: none !important;
+    }
+
+    #contentmiddle {
+    	float: inherit;
+    	max-width: 350px;
+    	background: none;
+		border: none;
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+
+	.wrapper {
+		display: inline;
+		max-width: 200px;
+	}
+
+	article a h2,
+	article a p {
+		padding-left: 44px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+	#contentmiddle {
+		max-width: 350px;
+		float: inherit;
+		text-align: center;
+	}
+
+	.wrapper {
+		display: inline;
+		max-width: 200px;
+	}
+
+	article a h2,
+	article a p {
+		padding-left: 44px;
+	}
+
+	#content {
+		width: 100%;
+	}
+	
+	}
